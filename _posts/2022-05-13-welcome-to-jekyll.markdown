@@ -3,27 +3,11 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2022-05-13 18:08:16 -0700
 categories: jekyll update
+usemathjax: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+This blog will showcase all the math and visualisations I learn in my free time. This post documents perculiarities setting up Jekyll.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Jekyll is a static content website generator built with Ruby. A `gem` is a Ruby package. A `Gemfile` stores Ruby packages requirements to build the website. Running `bundle exec jekyll serve` searches for the `Gemfile`, fetch-builds depdendencies, then serves the jekyll website locally at `http://127.0.0.1:4000/`. This site is cloned from the [Minimal theme](https://github.com/mmistakes/minimal-mistakes).
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Page content can be written in Markdown or HTML. I like writing Markdown because it works natively with VS-Code and supports $\LaTeX$. [Jekyll](https://www.markdownguide.org/tools/jekyll/) uses kramdown to convert `.markdown` or `.md` documents into HTML. Strengths using Markdown are easy style formatting in a text editor, like *emphasis*, **strong**, `code`. Math typesetting requires including the [MathJax CDN](http://webdocs.cs.ualberta.ca/~zichen2/blog/coding/setup/2019/02/17/how-to-add-mathjax-support-to-jekyll.html). I like writing \\$x=y^2\\$ to produce $x=y^2$, but this is not enabled by [default](https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering). Some weaknesses with Markdown are images and tables. If you want an image a certain size only an HTML tag can style it. Table styling, such as removing borders, is something I will have to practice with CSS.
