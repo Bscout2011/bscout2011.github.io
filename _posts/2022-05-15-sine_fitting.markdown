@@ -12,7 +12,10 @@ Sine signals are not lines. So how does a *linear* model fit a sine curve? Do no
 
 ## 1. A line
 
-I can write \\$2.50 one backslash \\\
-Straight lines are be defined by two numbers, slope $$m$$ and intercept $b$. Given some input $x$
+Straight lines are be defined by two numbers, slope $m$ and intercept $b$. Given some input $x$, the output is
+
+$$
+y = mx + b.
+$$
 
 ## 2. Piecewise lines
