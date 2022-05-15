@@ -1,0 +1,33 @@
+title: Andrew Washburn
+author:
+  name: Andrew Washburn
+  # email: alwashburn91@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Hosting this blog to share my data science hobby. 
+  Interested in statistics, visualizations, and robotics.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github: Bscout2011
+    linkedin: andrew-washburn-4b930298
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
