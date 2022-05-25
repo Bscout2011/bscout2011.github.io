@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Sine Fitting"
-date:   2022-05-14 8:08:16 -0700
-categories: data fitting
+date:   2022-05-25 9:00:00 -0700
+categories: data fitting least-squares
 usemathjax: true
 ---
 
