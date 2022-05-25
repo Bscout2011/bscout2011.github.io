@@ -8,7 +8,7 @@ permalink: /about/
       alt="Washburns"
       width=300px>
 
-Andrew has experience with data warehouse modeling, front-end development, and engineering. He has a BS in Mechanical Engineering and MS in Computer Science. He lives in Reno, Nevada with his wife and champion Pembroke Welsh Corgi.
+Andrew has experience with data warehouse modeling, front-end development, and engineering. He has a BS in Mechanical Engineering and a MS in Computer Science. He lives in Reno, Nevada with his wife and champion Pembroke Welsh Corgi.
 
 ## Recommended Resources
 
