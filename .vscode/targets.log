@@ -1,0 +1,251 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 30 08:02:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/alw/portfolio
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/alw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+# makefile
+MAKEFILE_LIST := 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+ 
+ROS_ETC_DIR = /opt/ros/melodic/etc/ros
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ROS_PACKAGE_PATH = /home/alw/roomba_ws/src/ara_irobot:/home/alw/roomba_ws/src/create_robot/create_bringup:/home/alw/roomba_ws/src/create_robot/create_description:/home/alw/roomba_ws/src/create_robot/create_msgs:/home/alw/roomba_ws/src/create_robot/create_driver:/home/alw/roomba_ws/src/create_robot/create_robot:/home/alw/ara_navigation/src/pahap:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/apriltag:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/collada_urdf/collada_parser:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/collada_urdf/collada_urdf:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/vision_opencv/cv_bridge:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/costmap_converter:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/gazebo-pkgs/gazebo_version_helpers:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/gazebo-pkgs/gazebo_grasp_plugin:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/gazebo-pkgs/gazebo_world_plugin_loader:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/hector_localization/hector_localization:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/hector_localization/hector_pose_estimation_core:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/hector_localization/hector_pose_estimation:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/vision_opencv/image_geometry:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/apriltag_ros/apriltag_ros:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_abstract_core:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_msgs:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_utility:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_abstract_nav:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_costmap_core:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_costmap_nav:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/mbf_simple_nav:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/hector_localization/message_to_tf:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/move_base_flex/move_base_flex:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_msgs:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_planners/moveit_planners:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_plugins/moveit_plugins:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/moveit_resources:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/fanuc_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/fanuc_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_commander:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/panda_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/panda_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_resources/pr2_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_core:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_planners/chomp/chomp_motion_planner:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_planners/chomp/chomp_optimizer_adapter:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/moveit_ros:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/occupancy_map_monitor:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/perception:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/planning:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_plugins/moveit_fake_controller_manager:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_kinematics:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/move_group:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/manipulation:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/robot_interaction:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/warehouse:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/benchmarks:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/planning_interface:/home/alw/autonomous_mobile_manipulation_ws/src/move_base_to_manip:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_planners/chomp/chomp_interface:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/visualization:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_runtime:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_ros/moveit_servo:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_plugins/moveit_simple_controller_manager:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_plugins/moveit_ros_control_interface:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/general-message-pkgs/object_msgs:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/gazebo-pkgs/gazebo_test_tools:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/general-message-pkgs/object_msgs_tools:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/gazebo-pkgs/gazebo_state_plugins:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/octomap_ros:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/ompl:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_planners/ompl:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit/moveit_setup_assistant:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/vision_opencv/opencv_tests:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/general-message-pkgs/path_navigation_msgs:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/roboticsgroup_gazebo_plugins:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/robotiq_2f_140_gripper_visualization:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_base:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_control:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_gazebo:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_perception:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_ur_launch:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/rospy_message_converter:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/rtabmap_ros:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/rviz_visual_tools:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_visual_tools:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/moveit_grasps:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/robowork_planning:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/teb_local_planner:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/trac_ik/trac_ik:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/trac_ik/trac_ik_lib:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/trac_ik/trac_ik_examples:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/trac_ik/trac_ik_kinematics_plugin:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/trac_ik/trac_ik_python:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/universal_robot:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/universal_robots:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_bringup:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur10_e_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur10_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur3_e_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur3_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur5_e_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur5_moveit_config:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_driver:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_e_description:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_e_gazebo:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_gazebo:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_kinematics:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/fmauch_universal_robot/ur_msgs:/home/alw/autonomous_mobile_manipulation_ws/src/autonomous_mobile_manipulation/deps/vision_opencv/vision_opencv:/opt/ros/melodic/share
+# environment
+ROS_PYTHON_VERSION = 2
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/alwas/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/alw/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/alw/.local/bin:/home/alw/gems/bin:/home/alw/autonomous_mobile_manipulation_ws/devel/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/alwas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alwas/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Inkscape/bin:/snap/bin:/home/alw/.dotnet/tools:/home/alw/julia-1.6.1/bin
+# environment
+XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
+# environment
+ROS_ROOT = /opt/ros/melodic/share/ros
+# environment
+VSCODE_LOG_STACK = false
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /home/alw/roomba_ws/devel:/home/alw/ara_navigation/devel:/home/alw/autonomous_mobile_manipulation_ws/devel:/opt/ros/melodic
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+ROS_DISTRO = melodic
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/alw/portfolio
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-70c1f956-4ea1-42a5-8663-2c20b141a67b.sock
+# environment
+GEM_HOME = /home/alw/gems
+# environment
+WSL_INTEROP = /run/WSL/11_interop
+# environment
+PKG_CONFIG_PATH = /home/alw/roomba_ws/devel/lib/pkgconfig:/home/alw/ara_navigation/devel/lib/pkgconfig:/home/alw/autonomous_mobile_manipulation_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig
+# environment
+PULSE_SERVER = /mnt/wslg/PulseServer
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/alw
+# environment
+LD_LIBRARY_PATH = /home/alw/roomba_ws/devel/lib:/home/alw/ara_navigation/devel/lib:/home/alw/autonomous_mobile_manipulation_ws/devel/lib:/opt/ros/melodic/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = alw
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# default
+MAKE_VERSION := 4.1
+# environment
+USER = alw
+# makefile
+.DEFAULT_GOAL := 
+# environment
+NAME = Wash
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/alwas/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PYTHONPATH = /home/alw/roomba_ws/devel/lib/python2.7/dist-packages:/home/alw/ara_navigation/devel/lib/python2.7/dist-packages:/home/alw/autonomous_mobile_manipulation_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 0
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu-18.04
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=3/105=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 2558): 27 files, no impossibilities.
+
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 335 B / avg = 9 B
+# current buf: size = 8162 B / used = 335 B / count = 35 / avg = 9 B
+
+# strcache performance: lookups = 38 / hit rate = 7%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=1/38=3%
+# Finished Make data base on Thu Jun 30 08:02:28 2022
+
+ 

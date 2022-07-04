@@ -5,3 +5,4 @@ _site
 vendor
 notebooks/data
 img/fitting/poly_fit
+input/

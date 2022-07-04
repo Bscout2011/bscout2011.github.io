@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Data Engineering Interview Preparation"
+title:  "Interview Preparation"
 date:   2022-06-01 21:00:00 -0700
 categories: data engineer sql python sqlite interview
 ---
 
-This Spring marks the completion of my post-graduate Masters degree in Computer Science. What comes next? Well, LinkedIn bombards my email with 30+ jobs every day for remote work as a ''data engineer''. Looking at the job description reveals similar keywords. One job asking for someone with, ``experience migrating and deploying cloud-based solutions'' has the following keywords:
+This Summer marks the completion of my post-graduate Masters degree in Computer Science. What comes next? Well, LinkedIn bombards my email with 30+ jobs every day for remote work as a ''data engineer'' or ''data scientist''. Looking at the job description reveals similar keywords. One job asking for someone with, ``experience migrating and deploying cloud-based solutions'' has the following keywords:
 
 - SQL (data transformations, statistical analysis)
 - Programming (Python, Java, Scala)
@@ -219,6 +219,4 @@ Complexity plays a big role in computer science, and no other subject is more st
 
 For my coding interview I trained on [Codility](https://app.codility.com/programmers/). The site has some programming and SQL problems and provides automated test feedback to improve skills. Spending an afternoon on the site improved my confidence a lot and it paid off during the skill test.   
 
-Unfortunately no amount of studying will suffice for real world experience. Practicing with toy datasets and contrived problems will develop basic skills but not the intuition and inspiration to dive into large datasets without getting overwhelmed. Unfortunately I do not know where else to find this experience. If I find a way I will post.
-
-So far I've discussed the first two items (SQL, Programming) in the job description from the introduction. Next post I will write about what I know of something else on the list.
+Unfortunately no amount of studying will suffice for real world experience. Practicing with toy datasets and contrived problems will develop basic skills but not the intuition and inspiration to dive into large datasets without getting overwhelmed. Unfortunately I do not know where else to find this experience.
