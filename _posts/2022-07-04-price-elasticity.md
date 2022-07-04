@@ -6,8 +6,6 @@ categories: data economics python kaggle regression
 usemathjax: true
 ---
 
-# Inflated Introduction
-
 Inflation has captured the nation's attention this year. So when I read about a problem of how to measure price elasticity, my interest perked. I searched [Kaggle](https://www.kaggle.com/bscout2011/price-elasticity) and found a price, demand dataset about [avocados](https://www.kaggle.com/datasets/neuromusic/avocado-prices). There is no substitute for avocado toast. Shopping at the supermarket, I buy more avocados when prices are low, but consistently buy avocados to enjoy the sweet breakfast toast. Let's use data to prove my intuition.
 
 ## Price Elasticity
