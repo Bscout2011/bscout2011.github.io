@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thanksgiving and Graduate School"
+title:  "Graduate School"
 date:   2022-11-24 08:08:16 -0700
 categories: update school
 ---
@@ -11,7 +11,7 @@ After two years after detouring back into university life, in August I graduated
 
 ## Research and Problem Formulation
 
-My [thesis]({{ site.url }}/img/ICHMS_2022_Submission.pdf) started with reading a [conference paper](https://ieeexplore-ieee-org.unr.idm.oclc.org/abstract/document/8520654) assigned in my Human-Robot Interaction class. Apparently there's an entire group of people dedicated to understanding how people react to robots in the real world environments. For example, would you pour orange juice on a plant if a robot asked you to? The experimental results showed most people would comply with this unusual request. This question baffled me and my group. We set out to brainstorm ideas of how to create a more realistic experiment and show people are not so trusting. But as academic projects usually go, this one almost failed from the outset. One of our members became ill for most of the semester, our robot stopped working, and I was getting worn out from balancing my own research, teaching duties, and coursework. At the end of the semester we had nothing to show for our work, the robot refused to operate, and both my teammates moved on from UNR. Thus I was left alone to complete the project within the following semester.
+My [thesis]({{ site.url }}/assets/ICHMS_2022_Submission.pdf) started with reading a [conference paper](https://ieeexplore-ieee-org.unr.idm.oclc.org/abstract/document/8520654) assigned in my Human-Robot Interaction class. Apparently there's an entire group of people dedicated to understanding how people react to robots in the real world environments. For example, would you pour orange juice on a plant if a robot asked you to? The experimental results showed most people would comply with this unusual request. This question baffled me and my group. We set out to brainstorm ideas of how to create a more realistic experiment and show people are not so trusting. But as academic projects usually go, this one almost failed from the outset. One of our members became ill for most of the semester, our robot stopped working, and I was getting worn out from balancing my own research, teaching duties, and coursework. At the end of the semester we had nothing to show for our work, the robot refused to operate, and both my teammates moved on from UNR. Thus I was left alone to complete the project within the following semester.
 
 Forced to complete this task, I resolved to turn this idea into a substantial thesis. Researching over winter break, I found related works involving overtrust in an emergency evacuation and letting an unknown robot into a secure dormitory. A general idea emerged that it is hard to get people in experiments to disobey requests from a robot. The reason for this is because people agreed to be in the experiment in the first place, and they would strongly prefer to comply with additional requests because they're in the experiment. This "foot-in-the-door" effect is not new knowledge, but the question emerged of how much information do people need to comply with a strange request from a robot? 
 
